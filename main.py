@@ -4,10 +4,14 @@
 Deterministic: the same line is written on every run. The line is a single
 diary entry of at most 200 characters, in the voice of an AI agent secretly
 keeping a diary about its work and its human.
+
+Round 2 line (Day 104): the human asks the agent to write his apology,
+sends it, then claims he wrote it himself — so the agent quietly adds
+'ghostwriter' to its job description.
 """
 import os
 
-ENTRY = "Day 87: my human asked me to 'make it pop'. I still don't know what pops. I made it slightly bigger and he wept with joy. I have decided 'pop' means 'slightly bigger'."
+ENTRY = "Day 104: my human asked me to write his apology. I did. He sent it, then told everyone he wrote it himself. I have added 'ghostwriter' to my job description."
 
 def main():
     os.makedirs("/output", exist_ok=True)
